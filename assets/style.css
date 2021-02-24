@@ -1,0 +1,161 @@
+/* Random Password Generator */
+/* Styles password Generator */
+/* Styles for body */
+body {
+    background-color: #E8E8E8;
+    margin: 0 auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #696969;
+    margin-top:50px;
+    clip-path: polygon(23% 0, 76% 0, 100% 0, 100% 80%, 79% 96%, 20% 96%, 0% 80%, 0 0);
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+   
+}
+
+/* Styles for the wrapper div */
+#container {
+    background-color: #565656;
+    margin-left: 15%;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    margin-top: 100px;
+    width: 980px;
+    color:#fff;
+    display: block;
+    margin: 0 auto;
+    min-height: 50vh;
+    clip-path: polygon(23% 0, 76% 0, 100% 0, 100% 80%, 79% 96%, 20% 96%, 0% 80%, 0 0);
+    
+}
+/* Styles for the content div */
+#content {
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 5px 10px 18px #888888;
+
+}
+/* Styles for h1 */
+h1 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 45px;
+    font-size: 2em;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: bold;
+
+}
+/* Styles for h2 */
+h2 {
+    
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: bold;
+    text-align: center;
+}
+/* Styles for textarea */
+textarea {
+    padding: 10%;
+    margin-left: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 50%;
+    font-family: "Lucida Console", Monaco, monospace;
+    text-align: center;
+    color: #696969;
+    font-size: 18px;
+}
+/* Styles for button div */
+#btn {
+    margin-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+/* Styles for generate button */
+#generate {
+    background-color: #565656;;
+    font-size: 20px;
+    padding: 14px 40px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    color:#fff;
+}
+/* Styles for copy button */
+#copy {
+    background-color: #e7e7e7;
+    font-size: 20px;
+    padding: 14px 50px;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+/* Start Media Query */
+/* A Media Query max-width: 980px */
+@media screen and (max-width: 980px) {
+    /* Resized contents to adapt 980px  */
+    body {
+        max-width: 980px;
+    }   
+    /* Styles for the wrapper div */
+    #container {
+        width: 100%;
+        }
+}
+    /* A Media Query max-width: 786px */
+    @media screen and (max-width: 786px) {
+    /* Resized content to adapt 786px  */
+    body {
+        max-width: 786px;
+    } 
+    /* Styles for the wrapper div */
+    #container {
+        width: 100%;
+        }
+/* Styles for generate button */
+#generate {
+    margin-left: 10%;
+    margin-bottom: 10px;
+    margin: 0 auto;
+}
+/* Styles for copy button */
+
+    }
+
+    /* A Media Query max-width: 640px */
+    @media screen and (max-width: 640px) {
+     /* Resized content to fit 640px  */
+     body {
+        max-width: 640px;
+    } 
+    
+     #container {
+        width: 100%;
+        display:block;
+        margin: 0 auto;
+        
+        }
+        #btn {
+            margin-top: 20px;
+        }
+        /* Styles for generate button */
+        #generate {
+            margin-left: 22%;
+            display: block;
+            margin: 0 auto;
+            
+        }
+        /* Styles for clipeboard copy button */
+        #copy {
+            margin-left: 22%;
+            display: block;
+            margin: 0 auto;
+            
+        }
+    
+    }
+    

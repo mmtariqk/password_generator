@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <!-- This is the first step in making the document responsive but scaling the items to screen -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Random Password Generator -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- This is the title-->
+    <title>Password Generator</title>
+    <!-- These are the style links. Reset CSS and Styles CSS -->
+     <link rel="stylesheet" type="text/css" href="assets/style.css">
+
+</head>
+<!-- This is the body -->
+
+<body>
+    
+     &nbsp;   
+    <!--This is the wrapper container with all of the content-->
+    
+<main id="container">
+        
+        <header>
+            <h1>Password Generator</h1>
+        </header>
+        <!--This is the content area-->
+        
+    <section id="content">
+            <h2>Click On Generate Password Button</h2>
+           
+            
+            <!-- This is a readonly text area for output-->
+            <textarea readonly id="password" placeholder="Your Password Here"
+                aria-label="Generated Password"></textarea>
+            
+            <!-- This is the div for the buttons -->
+    
+    <section id="btn">
+                <!-- This is the generate password button -->
+                <button id="generate">Generate
+                    Password</button>
+                <!-- This is the copy button -->
+                <button id="copy">Copy to Clipboard</button>
+
+
+    </section>
+    </section>
+</main>
+
+
+    <!-- This is the Javascript document-->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
