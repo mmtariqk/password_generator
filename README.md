@@ -6,8 +6,8 @@ Ay you know there are multiple ways to generate secure random password based on 
 
 B.  Repo & GitHub Deploed URLs:
 
-The URL of the deployed application: 
-The URL of the GitHub repository: 
+The URL of the deployed application: https://mmtariqk.github.io/password_generator/
+The URL of the GitHub repository: https://github.com/mmtariqk/password_generator 
 
 
 C.  Screenshots of App:
