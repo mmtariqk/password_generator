@@ -6,11 +6,19 @@ Ay you know there are multiple ways to generate secure random password based on 
 
 B.  Repo & GitHub Deploed URLs:
 
-The URL of the deployed application: https://mmtariqk.github.io/password_generator/
-The URL of the GitHub repository: https://github.com/mmtariqk/password_generator 
+The URL of the deployed application:  https://mmtariqk.github.io/password_generator/
+The URL of the GitHub repository:     https://github.com/mmtariqk/password_generator 
 
 
 C.  Screenshots of App:
+
+<img width="500" alt="mobile-size" src="https://user-images.githubusercontent.com/77028806/109080665-d1720200-76b5-11eb-9abb-be551f5e5ed8.png">
+
+<img width="500" alt="small devices" src="https://user-images.githubusercontent.com/77028806/109080675-d767e300-76b5-11eb-8f62-bebe7cb745d3.png">
+
+<img width="1154" alt="medium-devices" src="https://user-images.githubusercontent.com/77028806/109080696-dd5dc400-76b5-11eb-857a-7fd98c7b46ba.png">
+
+<img width="2014" alt="large-devices" src="https://user-images.githubusercontent.com/77028806/109080712-e353a500-76b5-11eb-84dc-6903bdc5fef6.png">
 
 
 
